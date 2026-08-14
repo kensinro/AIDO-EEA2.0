@@ -1,0 +1,3 @@
+{"input_id": "SYN-001", "run01": "UTILITY", "run02": "UTILITY", "run03": "DESCRIPTIVE", "consensus": "UTILITY", "consensus_count": 2, "stability_category": "UNSTABLE_2_OF_3", "candidate_atomic_claim": "Method X is useful for detecting signal Y."}
+{"input_id": "SYN-002", "run01": "ASSOCIATIVE", "run02": "ASSOCIATIVE", "run03": "ASSOCIATIVE", "consensus": "ASSOCIATIVE", "consensus_count": 3, "stability_category": "STABLE_3_OF_3", "candidate_atomic_claim": "Higher X is associated with higher Y."}
+{"input_id": "SYN-003", "run01": "GENERALIZATION", "run02": "GENERALIZATION", "run03": "GENERALIZATION", "consensus": "GENERALIZATION", "consensus_count": 3, "stability_category": "STABLE_3_OF_3", "candidate_atomic_claim": "Many tumors exhibit increased uptake."}

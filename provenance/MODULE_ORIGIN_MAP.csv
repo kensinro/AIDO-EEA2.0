@@ -1,0 +1,10 @@
+component,EEA1_kernel,EEA2_native,AIT_derived_or_inspired,scientific_role,changes_kernel_semantics
+claim state rules,yes,no,no,canonical entitlement logic,no
+Rmin/Rfull contracts,yes,no,no,canonical evidence contracts,no
+flat semantic prompt,no,yes,no,semantic-adapter implementation contract,no
+claim typing output schema,no,yes,no,provisional adapter object,no
+blind-run validation,no,yes,governance-inspired,integrity verification,no
+stability/repeatability analysis,no,yes,no,adapter measurement,no
+hash/release manifest,no,partial,yes,artifact integrity,no
+freeze/promotion lineage,no,partial,yes,governance,no
+final scientific adjudication,yes,no,no,Human Gate / governed kernel,n/a

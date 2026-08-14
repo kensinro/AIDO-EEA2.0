@@ -1,0 +1,195 @@
+{
+  "stage": "EEA2_EXP1_STABILITY_ASSESSMENT",
+  "timestamp": "2026-08-13T13:50:52.771486+00:00",
+  "n_cases": 97,
+  "run_sizes": {
+    "run01": 97,
+    "run02": 97,
+    "run03": 97
+  },
+  "common_ids": 97,
+  "union_ids": 97,
+  "stable_3_of_3": 75,
+  "unstable_2_of_3": 22,
+  "high_instability_3_different": 0,
+  "case_instability_rate": 0.2268041237113402,
+  "pairwise_agreement_counts": {
+    "01_02": 78,
+    "01_03": 80,
+    "02_03": 89
+  },
+  "pairwise_agreement_rates": {
+    "01_02": 0.8041237113402062,
+    "01_03": 0.8247422680412371,
+    "02_03": 0.9175257731958762
+  },
+  "overall_mean_pairwise_agreement": 0.8487972508591065,
+  "label_stats": {
+    "ASSOCIATIVE": {
+      "cases_touched": 8,
+      "stable_all3_as_label": 6
+    },
+    "CAUSAL": {
+      "cases_touched": 7,
+      "stable_all3_as_label": 0
+    },
+    "COMPARATIVE": {
+      "cases_touched": 5,
+      "stable_all3_as_label": 4
+    },
+    "DESCRIPTIVE": {
+      "cases_touched": 36,
+      "stable_all3_as_label": 22
+    },
+    "GENERALIZATION": {
+      "cases_touched": 5,
+      "stable_all3_as_label": 3
+    },
+    "MECHANISTIC": {
+      "cases_touched": 11,
+      "stable_all3_as_label": 2
+    },
+    "UNCERTAIN_OTHER": {
+      "cases_touched": 18,
+      "stable_all3_as_label": 18
+    },
+    "UTILITY": {
+      "cases_touched": 28,
+      "stable_all3_as_label": 20
+    },
+    "__ABSTAIN__": {
+      "cases_touched": 1,
+      "stable_all3_as_label": 0
+    }
+  },
+  "unstable_cases": [
+    "HD-G0033",
+    "HD-G0060",
+    "HD-G0065",
+    "HD-G0075",
+    "HD-G0080",
+    "HD-G0081",
+    "HD-G0083",
+    "HD-G0096",
+    "HD-G0100",
+    "HD-G0102",
+    "HD-G0103",
+    "HD-G0109",
+    "HD-G0113",
+    "HD-G0145",
+    "HD-G0148",
+    "HD-G0151",
+    "HD-G0152",
+    "HD-G0153",
+    "HD-G0154",
+    "V08-R4-B1",
+    "V08-R4-B2",
+    "V08-R4-D1-2"
+  ],
+  "disagreement_patterns": [
+    {
+      "pattern": [
+        "CAUSAL",
+        "MECHANISTIC",
+        "MECHANISTIC"
+      ],
+      "count": 6
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "UTILITY",
+        "UTILITY"
+      ],
+      "count": 4
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "UTILITY",
+        "DESCRIPTIVE"
+      ],
+      "count": 2
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "GENERALIZATION",
+        "GENERALIZATION"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "UTILITY",
+        "UTILITY",
+        "DESCRIPTIVE"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "MECHANISTIC",
+        "DESCRIPTIVE"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "ASSOCIATIVE",
+        "ASSOCIATIVE",
+        "DESCRIPTIVE"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "MECHANISTIC",
+        "MECHANISTIC"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "GENERALIZATION",
+        "DESCRIPTIVE"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "COMPARATIVE",
+        "ASSOCIATIVE",
+        "ASSOCIATIVE"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "DESCRIPTIVE",
+        "UTILITY"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "CAUSAL",
+        "MECHANISTIC",
+        "CAUSAL"
+      ],
+      "count": 1
+    },
+    {
+      "pattern": [
+        "DESCRIPTIVE",
+        "__ABSTAIN__",
+        "__ABSTAIN__"
+      ],
+      "count": 1
+    }
+  ]
+}

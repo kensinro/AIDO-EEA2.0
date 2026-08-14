@@ -1,0 +1,30 @@
+{
+  "artifact": "EEA2_EXP1_FINAL_FREEZE_LOCK",
+  "timestamp": "2026-08-13T13:58:36.078757+00:00",
+  "human_gate_status": "READY_FOR_FINAL_HUMAN_ACCEPTANCE",
+  "freeze_class": "FINAL_DEVELOPMENT_FREEZE",
+  "exp1_complete": true,
+  "semantic_rules_frozen": true,
+  "flat_canonical_prompt_frozen": true,
+  "regression_corpus_frozen": true,
+  "future_tuning_on_97_case_corpus_prohibited": true,
+  "stability_summary": {
+    "stable_3_of_3": 75,
+    "unstable_2_of_3": 22,
+    "three_different": 0,
+    "case_instability_rate": 0.2268041237113402
+  },
+  "known_limitations": [
+    "22/97 cases show 2/3 repeatability rather than unanimous repeatability",
+    "some ontology/boundary cases remain quarantined",
+    "some legacy Frozen Gold labels conflict with the current frozen contract",
+    "no claim of deterministic or general external validation"
+  ],
+  "reopen_conditions": [
+    "new independent external benchmark reveals a 3/3-stable systematic failure",
+    "ontology/governance scope is explicitly reopened by Human Gate",
+    "new model/runtime requires separate stability calibration"
+  ],
+  "next_research_stage": "EEA2_EXP2_OR_EXTERNAL_VALIDATION",
+  "promotion_wording": "Exp1 development/calibration complete; not production promotion"
+}

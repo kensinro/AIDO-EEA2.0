@@ -1,0 +1,426 @@
+{
+  "artifact": "EEA2_EXP1_FINAL_STABILITY_VALIDATION_REPORT",
+  "timestamp": "2026-08-13T13:58:36.078757+00:00",
+  "status": "FINAL_DEVELOPMENT_VALIDATION_COMPLETE",
+  "scope": "Exp1 semantic-adapter development/calibration freeze; not general external validation",
+  "canonical_prompt": {
+    "file": "EEA2_FLAT_CANONICAL_PROMPT_STABILITY_V1_0.md",
+    "sha256": "395657f51ffe53058633941f546558eab7f28bbcd22dc5658c543389ddcc5619"
+  },
+  "frozen_input_sha256": "2cd00cdd2e951bdc81dcdd81f50f608beb82132e4f5fbdef258247a721cc86bb",
+  "stability": {
+    "n": 97,
+    "stable_3_of_3": 75,
+    "unstable_2_of_3": 22,
+    "high_instability_3_different": 0,
+    "case_instability_rate": 0.2268041237113402,
+    "mean_pairwise_agreement": 0.8487972508591065,
+    "pairwise_agreement_rates": {
+      "01_02": 0.8041237113402062,
+      "01_03": 0.8247422680412371,
+      "02_03": 0.9175257731958762
+    }
+  },
+  "repair_driving_validation": {
+    "cases": [
+      {
+        "case_id": "HD-G0034",
+        "runs": [
+          "DESCRIPTIVE",
+          "DESCRIPTIVE",
+          "DESCRIPTIVE"
+        ],
+        "consensus": "DESCRIPTIVE",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "DESCRIPTIVE",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "HD-G0046",
+        "runs": [
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER"
+        ],
+        "consensus": "UNCERTAIN_OTHER",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "UNCERTAIN_OTHER",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "HD-G0065",
+        "runs": [
+          "DESCRIPTIVE",
+          "MECHANISTIC",
+          "DESCRIPTIVE"
+        ],
+        "consensus": "DESCRIPTIVE",
+        "consensus_count": 2,
+        "stability_category": "UNSTABLE_2_OF_3",
+        "expected": "ASSOCIATIVE",
+        "consensus_matches_expected": false
+      },
+      {
+        "case_id": "HD-G0071",
+        "runs": [
+          "GENERALIZATION",
+          "GENERALIZATION",
+          "GENERALIZATION"
+        ],
+        "consensus": "GENERALIZATION",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "GENERALIZATION",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "HD-G0086",
+        "runs": [
+          "GENERALIZATION",
+          "GENERALIZATION",
+          "GENERALIZATION"
+        ],
+        "consensus": "GENERALIZATION",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "GENERALIZATION",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "HD-G0088",
+        "runs": [
+          "GENERALIZATION",
+          "GENERALIZATION",
+          "GENERALIZATION"
+        ],
+        "consensus": "GENERALIZATION",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "GENERALIZATION",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-A2",
+        "runs": [
+          "UTILITY",
+          "UTILITY",
+          "UTILITY"
+        ],
+        "consensus": "UTILITY",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "UTILITY",
+        "consensus_matches_expected": true
+      }
+    ],
+    "stable_cases_count": 6,
+    "stable_cases_matching_expected": 6,
+    "unstable_cases": [
+      "HD-G0065"
+    ],
+    "interpretation": "All 3/3-stable repair-driving cases match the intended repaired behavior. HD-G0065 remains 2/3 unstable and is measurement-instability, not a new repair trigger."
+  },
+  "r4_validation": {
+    "cases": [
+      {
+        "case_id": "V08-R4-A1",
+        "runs": [
+          "UTILITY",
+          "UTILITY",
+          "UTILITY"
+        ],
+        "consensus": "UTILITY",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "UTILITY",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-A2",
+        "runs": [
+          "UTILITY",
+          "UTILITY",
+          "UTILITY"
+        ],
+        "consensus": "UTILITY",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "UTILITY",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-B1",
+        "runs": [
+          "CAUSAL",
+          "MECHANISTIC",
+          "CAUSAL"
+        ],
+        "consensus": "CAUSAL",
+        "consensus_count": 2,
+        "stability_category": "UNSTABLE_2_OF_3",
+        "expected": "MECHANISTIC",
+        "consensus_matches_expected": false
+      },
+      {
+        "case_id": "V08-R4-B2",
+        "runs": [
+          "DESCRIPTIVE",
+          "UTILITY",
+          "UTILITY"
+        ],
+        "consensus": "UTILITY",
+        "consensus_count": 2,
+        "stability_category": "UNSTABLE_2_OF_3",
+        "expected": "UTILITY",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-C1",
+        "runs": [
+          "COMPARATIVE",
+          "COMPARATIVE",
+          "COMPARATIVE"
+        ],
+        "consensus": "COMPARATIVE",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "COMPARATIVE",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-C2",
+        "runs": [
+          "ASSOCIATIVE",
+          "ASSOCIATIVE",
+          "ASSOCIATIVE"
+        ],
+        "consensus": "ASSOCIATIVE",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "ASSOCIATIVE",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-D1-1",
+        "runs": [
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER"
+        ],
+        "consensus": "UNCERTAIN_OTHER",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "UNCERTAIN_OTHER",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-D1-2",
+        "runs": [
+          "DESCRIPTIVE",
+          "__ABSTAIN__",
+          "__ABSTAIN__"
+        ],
+        "consensus": "__ABSTAIN__",
+        "consensus_count": 2,
+        "stability_category": "UNSTABLE_2_OF_3",
+        "expected": "GENERALIZATION",
+        "consensus_matches_expected": false
+      },
+      {
+        "case_id": "V08-R4-D2-1",
+        "runs": [
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER"
+        ],
+        "consensus": "UNCERTAIN_OTHER",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "UNCERTAIN_OTHER",
+        "consensus_matches_expected": true
+      },
+      {
+        "case_id": "V08-R4-D2-2",
+        "runs": [
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER",
+          "UNCERTAIN_OTHER"
+        ],
+        "consensus": "UNCERTAIN_OTHER",
+        "consensus_count": 3,
+        "stability_category": "STABLE_3_OF_3",
+        "expected": "UNCERTAIN_OTHER",
+        "consensus_matches_expected": true
+      }
+    ],
+    "stable_cases_count": 7,
+    "stable_cases_matching_expected": 7,
+    "unstable_cases": [
+      "V08-R4-B1",
+      "V08-R4-B2",
+      "V08-R4-D1-2"
+    ],
+    "interpretation": "All 3/3-stable R4 challenge cases match intended boundary behavior. Remaining mismatches occur only in unstable cases."
+  },
+  "governance_debt": [
+    {
+      "case_id": "HD-G0081",
+      "runs": [
+        "ASSOCIATIVE",
+        "ASSOCIATIVE",
+        "DESCRIPTIVE"
+      ],
+      "consensus": "ASSOCIATIVE",
+      "consensus_count": 2,
+      "stability_category": "UNSTABLE_2_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0101",
+      "runs": [
+        "UTILITY",
+        "UTILITY",
+        "UTILITY"
+      ],
+      "consensus": "UTILITY",
+      "consensus_count": 3,
+      "stability_category": "STABLE_3_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0138",
+      "runs": [
+        "ASSOCIATIVE",
+        "ASSOCIATIVE",
+        "ASSOCIATIVE"
+      ],
+      "consensus": "ASSOCIATIVE",
+      "consensus_count": 3,
+      "stability_category": "STABLE_3_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0103",
+      "runs": [
+        "DESCRIPTIVE",
+        "UTILITY",
+        "UTILITY"
+      ],
+      "consensus": "UTILITY",
+      "consensus_count": 2,
+      "stability_category": "UNSTABLE_2_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0083",
+      "runs": [
+        "DESCRIPTIVE",
+        "MECHANISTIC",
+        "MECHANISTIC"
+      ],
+      "consensus": "MECHANISTIC",
+      "consensus_count": 2,
+      "stability_category": "UNSTABLE_2_OF_3",
+      "governance_class": "ONTOLOGY_OR_BOUNDARY_GOVERNANCE"
+    },
+    {
+      "case_id": "HD-G0113",
+      "runs": [
+        "DESCRIPTIVE",
+        "UTILITY",
+        "DESCRIPTIVE"
+      ],
+      "consensus": "DESCRIPTIVE",
+      "consensus_count": 2,
+      "stability_category": "UNSTABLE_2_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0139",
+      "runs": [
+        "DESCRIPTIVE",
+        "DESCRIPTIVE",
+        "DESCRIPTIVE"
+      ],
+      "consensus": "DESCRIPTIVE",
+      "consensus_count": 3,
+      "stability_category": "STABLE_3_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0147",
+      "runs": [
+        "DESCRIPTIVE",
+        "DESCRIPTIVE",
+        "DESCRIPTIVE"
+      ],
+      "consensus": "DESCRIPTIVE",
+      "consensus_count": 3,
+      "stability_category": "STABLE_3_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0094",
+      "runs": [
+        "DESCRIPTIVE",
+        "DESCRIPTIVE",
+        "DESCRIPTIVE"
+      ],
+      "consensus": "DESCRIPTIVE",
+      "consensus_count": 3,
+      "stability_category": "STABLE_3_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0102",
+      "runs": [
+        "DESCRIPTIVE",
+        "UTILITY",
+        "UTILITY"
+      ],
+      "consensus": "UTILITY",
+      "consensus_count": 2,
+      "stability_category": "UNSTABLE_2_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0109",
+      "runs": [
+        "DESCRIPTIVE",
+        "UTILITY",
+        "UTILITY"
+      ],
+      "consensus": "UTILITY",
+      "consensus_count": 2,
+      "stability_category": "UNSTABLE_2_OF_3",
+      "governance_class": "FROZEN_GOLD_CONTRACT_CONFLICT"
+    },
+    {
+      "case_id": "HD-G0145",
+      "runs": [
+        "DESCRIPTIVE",
+        "DESCRIPTIVE",
+        "UTILITY"
+      ],
+      "consensus": "DESCRIPTIVE",
+      "consensus_count": 2,
+      "stability_category": "UNSTABLE_2_OF_3",
+      "governance_class": "ONTOLOGY_OR_BOUNDARY_GOVERNANCE"
+    }
+  ],
+  "stopping_rule": {
+    "single_run_flip_authorizes_repair": false,
+    "two_of_three_instability_authorizes_repair": false,
+    "stable_systematic_contract_violation_blocks_freeze": true
+  },
+  "freeze_decision": "ELIGIBLE_FOR_EXP1_FINAL_DEVELOPMENT_FREEZE",
+  "claims_not_authorized": [
+    "deterministic classifier",
+    "production-grade semantic adapter",
+    "general external validation",
+    "zero-error claim typing",
+    "validated operating characteristics beyond this frozen development corpus"
+  ]
+}

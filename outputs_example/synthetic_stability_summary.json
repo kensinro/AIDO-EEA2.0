@@ -1,0 +1,25 @@
+{
+  "n_cases": 3,
+  "n_runs": 3,
+  "unanimous_cases": 2,
+  "unanimous_rate": 0.6666666666666666,
+  "majority_nonunanimous_cases": 1,
+  "majority_nonunanimous_rate": 0.3333333333333333,
+  "no_majority_cases": 0,
+  "no_majority_rate": 0.0,
+  "pairwise_agreement_counts": {
+    "1_2": 3,
+    "1_3": 2,
+    "2_3": 2
+  },
+  "pairwise_agreement_rates": {
+    "1_2": 1.0,
+    "1_3": 0.6666666666666666,
+    "2_3": 0.6666666666666666
+  },
+  "mean_pairwise_agreement": 0.7777777777777778,
+  "fleiss_kappa": 0.689655172413793,
+  "nonunanimous_case_ids": [
+    "SYN-001"
+  ]
+}

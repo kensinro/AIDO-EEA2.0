@@ -1,0 +1,12 @@
+component,origin,source_version_or_artifact,EEA2_role,copied_code,modifies_entitlement_semantics,status
+Canonical five-state entitlement semantics,EEA kernel,AIDO-EEA Python Reference v0.2.0,inherited interface contract,no,no,frozen upstream
+Rmin/Rfull evidence contracts,EEA kernel,AIDO-EEA Python Reference v0.2.0,inherited interface contract,no,no,frozen upstream
+Semantic prompt contract,EEA2 Exp1,EEA2_FLAT_CANONICAL_PROMPT_STABILITY_V1_0.md,semantic-adapter instrument,yes (artifact),no,final development freeze
+Prediction schema,EEA2 Exp1,config/prediction_schema.json,adapter output contract,yes,no,frozen
+Blind-run integrity validator,EEA2 Exp1,src/validate_blind_run.py,validation/governance utility,yes,no,frozen
+Stability analysis,EEA2 Exp1,src/stability_analysis.py,repeatability analysis,yes,no,frozen
+Consensus builder,EEA2 Exp1,src/build_consensus.py,descriptive consensus artifact,yes,no,frozen
+Repeatability figure generator,EEA2 Exp1,src/generate_repeatability_figure.py,reporting utility,yes,no,frozen
+Hash-manifest pattern,AIT-inspired governance,AIT 1.0 MVP V6.4.4 lineage/release tooling,release integrity pattern,no AIT source copied,no,adapted concept
+Version/freeze/challenger governance pattern,AIT-inspired governance,AIT 1.0 MVP V6.4.4 governance modules,orchestration/provenance pattern,no AIT source copied,no,adapted concept
+Final entitlement decision,EEA kernel + Human Gate,EEA governed M1-M8 kernel,outside semantic-adapter authority,no,"yes, human-governed only",not automated here

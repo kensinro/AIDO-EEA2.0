@@ -1,0 +1,15 @@
+{
+  "package": "AIDO-EEA2 Python Reference",
+  "package_version": "0.1.0-rc",
+  "upstream_kernel": {
+    "name": "AIDO-EEA Python Reference Implementation",
+    "compatible_version": "0.2.0",
+    "repository": "https://github.com/kensinro/AIDO-EEA1.0",
+    "relationship": "semantic adapter inherits kernel semantics without redefining them"
+  },
+  "kernel_code_vendored": false,
+  "semantic_state_rules_redefined": false,
+  "rmin_rfull_redefined": false,
+  "final_entitlement_automated": false,
+  "human_gate_required": true
+}

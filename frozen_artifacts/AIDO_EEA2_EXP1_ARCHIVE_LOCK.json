@@ -1,0 +1,14 @@
+{
+  "artifact": "AIDO_EEA2_EXP1_ARCHIVE_LOCK",
+  "timestamp": "2026-08-13T22:13:11.737642+08:00",
+  "status": "CLOSED_FINAL_DEVELOPMENT_FREEZE",
+  "roadmap_file": "AIDO_EEA2_EXP1_CURRENT_STATUS_FINAL_ROADMAP.md",
+  "roadmap_sha256": "7be45335d259a09f5611d6046766ddb6863ce72c86e632fac66d2dfba969dd27",
+  "exp1_complete": true,
+  "future_tuning_on_frozen_97_case_corpus": false,
+  "allowed_next_stages": [
+    "EEA2_EXP2_NEW_UNSEEN_CASES",
+    "INDEPENDENT_EXTERNAL_VALIDATION",
+    "MANUSCRIPT_INTEGRATION"
+  ]
+}
