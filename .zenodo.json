@@ -32,5 +32,5 @@
       "scheme": "url"
     }
   ],
-  "notes": "License metadata is provisional in this release candidate. Select the final public software license before permanent Zenodo publication. EEA kernel semantics are inherited unchanged; final entitlement remains human-governed."
+  "notes": "EEA kernel semantics are inherited unchanged; final entitlement remains human-governed."
 }
