@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release and the associated Evidence Entitlement Audit work."
+title: "Evidence Entitlement Audit — Semantic Adapter Reference Implementation"
+version: 0.1.0
+date-released: 2026-08-14
+authors:
+  - family-names: "Kong"
+    given-names: "Sin Guan"
+type: software
+repository-code: "https://github.com/kensinro/AIDO-EEA2.0"
+abstract: "Public-safe reference implementation and reproducibility artifacts for the supervised EEA semantic-adapter Exp1. The adapter does not redefine canonical EEA entitlement semantics or automate final scientific adjudication."
+keywords:
+  - Evidence Entitlement Audit
+  - semantic adapter
+  - scientific claim evaluation
+  - repeatability
+  - provenance
+  - human governance
+license: "LicenseRef-Pending"

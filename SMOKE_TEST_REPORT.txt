@@ -1,0 +1,52 @@
+$ /opt/pyvenv/bin/python /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/src/stability_analysis.py --predictions /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/examples/synthetic_run_01_predictions.jsonl /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/examples/synthetic_run_02_predictions.jsonl /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/examples/synthetic_run_03_predictions.jsonl --summary-out /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/outputs_local/summary.json --ledger-out /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/outputs_local/ledger.jsonl
+{
+  "n_cases": 3,
+  "n_runs": 3,
+  "unanimous_cases": 2,
+  "unanimous_rate": 0.6666666666666666,
+  "majority_nonunanimous_cases": 1,
+  "majority_nonunanimous_rate": 0.3333333333333333,
+  "no_majority_cases": 0,
+  "no_majority_rate": 0.0,
+  "pairwise_agreement_counts": {
+    "1_2": 3,
+    "1_3": 2,
+    "2_3": 2
+  },
+  "pairwise_agreement_rates": {
+    "1_2": 1.0,
+    "1_3": 0.6666666666666666,
+    "2_3": 0.6666666666666666
+  },
+  "mean_pairwise_agreement": 0.7777777777777778,
+  "fleiss_kappa": 0.689655172413793,
+  "nonunanimous_case_ids": [
+    "SYN-001"
+  ]
+}
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
+
+
+$ /opt/pyvenv/bin/python /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/src/build_consensus.py --predictions /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/examples/synthetic_run_01_predictions.jsonl /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/examples/synthetic_run_02_predictions.jsonl /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/examples/synthetic_run_03_predictions.jsonl --out /mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/outputs_local/consensus.jsonl
+/mnt/data/EEA2_PACKAGE_BUILD/AIDO-EEA2-PYTHON-REFERENCE_V0.1.0_RC/outputs_local/consensus.jsonl
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

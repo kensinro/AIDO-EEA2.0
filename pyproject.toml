@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aido-eea2-semantic-adapter-reference"
+version = "0.1.0"
+description = "Public-safe reproducibility utilities for the EEA supervised semantic-adapter Exp1."
+requires-python = ">=3.10"
+authors = [{name = "Sin Guan Kong"}]
+dependencies = []
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+test = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
