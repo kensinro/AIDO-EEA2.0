@@ -1,0 +1,36 @@
+{
+  "title": "Evidence Entitlement Audit — Semantic Adapter Reference Implementation",
+  "description": "Public-safe reference implementation and reproducibility artifacts for the supervised semantic-adapter Exp1 surrounding the human-governed Evidence Entitlement Audit kernel. Includes frozen prompt/governance artifacts, repeatability-analysis utilities, synthetic regression tests, and explicit EEA-kernel/AIT software-lineage boundaries. Does not redefine canonical EEA entitlement semantics and does not automate final scientific adjudication.",
+  "creators": [
+    {
+      "name": "Kong, Sin Guan",
+      "affiliation": "Universiti Tunku Abdul Rahman"
+    }
+  ],
+  "version": "0.1.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "Evidence Entitlement Audit",
+    "semantic adapter",
+    "scientific claim evaluation",
+    "repeatability",
+    "provenance",
+    "human governance",
+    "research integrity"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/kensinro/AIDO-EEA2.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/kensinro/AIDO-EEA1.0",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "notes": "License metadata is provisional in this release candidate. Select the final public software license before permanent Zenodo publication. EEA kernel semantics are inherited unchanged; final entitlement remains human-governed."
+}
