@@ -84,5 +84,4 @@ external-validation corpus.
 
 ## License
 
-A final software license has not been selected in this release candidate.
-See `LICENSE_PENDING.md` before permanent Zenodo publication.
+This software is released under the MIT License. See `LICENSE`.
